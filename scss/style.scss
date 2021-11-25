@@ -383,6 +383,30 @@ footer h2 {
     margin-bottom: 5%;
 }
 
+/*--ERROR--*/
+.pagina__error__columna {
+    font-size: 2rem;
+    color: $colorSecundario;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pagina__error__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.pagina__error__columna img {
+    width: 15%;
+}
+
+.btn-light {
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 /*--MEDIA QUERIES--*/
 
@@ -401,6 +425,10 @@ footer h2 {
     h1 {
         font-size: 2rem !important;
     }
+
+    .partners__item img {
+        max-width: 35%;
+    }
 }
 
 @media only screen and (max-width: 320px){
@@ -410,6 +438,10 @@ footer h2 {
 
     h1 {
         font-size: 1.5rem !important;
+    }
+
+    .partners__item img {
+        max-width: 25%;
     }
 }
 
