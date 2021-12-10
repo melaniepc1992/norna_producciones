@@ -93,6 +93,17 @@ a h1 {
     background-image: linear-gradient(to right, $colorTerciario, $colorCuaternario);
 }
 
+.carousel-caption h2 a {
+    text-decoration: none;
+    color: $colorSecundario;
+}
+
+.carousel__boton {
+    background-color:  rgba(0, 0, 0, 0);
+    border: none;
+    color: $colorSecundario;
+}
+
 /*---- Listas ---*/
 
 li {
@@ -101,7 +112,7 @@ li {
 }
 
 
-/*--- Tabla productos ----*/
+/*--- Servicios ----*/
 
 main ul li {
     list-style-type: none;
@@ -119,6 +130,100 @@ main ul li {
 .productos__descripcion__texto {
     color: $colorSecundario;
     font-size: 3rem;
+}
+
+.services h2 {
+    color: $colorSecundario;
+    font-size: 3.5rem;
+}
+
+.services p {
+    color: $colorSecundario;
+    font-size: 2rem;
+}
+
+.servicios__descripcion {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.section-title {
+    padding-top: 3%; 
+}
+
+// Eliminar después
+
+.services {
+    padding-bottom: 40px;
+  }
+  .services .card {
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+  }
+  .services .card-img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    overflow: hidden;
+    z-index: 9;
+    border-radius: 0;
+  }
+  .services .card-img img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  .services .card-body {
+    z-index: 10;
+    background: $colorPrimario;
+    border-top: 4px solid $colorPrimario;
+    color: $colorSecundario;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    transition: 0.3s;
+    height: 75%;
+  }
+  .services .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .services .card-title a {
+    color: $colorSecundario;
+    transition: 0.3s;  }
+
+  .services .card-text {
+    color: $colorSecundario;
+    padding-bottom: 3%;
+  }
+  .services .read-more a {
+    color: $colorSecundario;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: 0.3s;
+  }
+  .services .read-more a:hover {
+    color: $colorCuaternario;
+  }
+  .services .card:hover img {
+    transform: scale(1.1);
+  }
+  .services .card:hover .card-body {
+    border-color: $colorCuaternario;
+  }
+  .services .card:hover .card-body .card-title a {
+    color: $colorCuaternario;
+  }
+  
+.servicios__row {
+    display: flex;
+}
+.servicios__columna {
+    display: flex;
+    justify-content: space-around;
 }
 
 /*-----Caja Sobre nosotrxs-----*/
@@ -421,6 +526,8 @@ footer h2 {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+
 
 /*--MEDIA QUERIES--*/
 

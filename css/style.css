@@ -64,11 +64,20 @@ a h1 {
 .portada__fondo {
   background-image: linear-gradient(to right, #360033, #0b8793); }
 
+.carousel-caption h2 a {
+  text-decoration: none;
+  color: #fff; }
+
+.carousel__boton {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #fff; }
+
 /*---- Listas ---*/
 li {
   color: #fff; }
 
-/*--- Tabla productos ----*/
+/*--- Servicios ----*/
 main ul li {
   list-style-type: none;
   color: #fff;
@@ -81,6 +90,92 @@ main ul li {
 .productos__descripcion__texto {
   color: #fff;
   font-size: 3rem; }
+
+.services h2 {
+  color: #fff;
+  font-size: 3.5rem; }
+
+.services p {
+  color: #fff;
+  font-size: 2rem; }
+
+.servicios__descripcion {
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+.section-title {
+  padding-top: 3%; }
+
+.services {
+  padding-bottom: 40px; }
+
+.services .card {
+  border: 0;
+  padding: 0 30px;
+  margin-bottom: 60px;
+  position: relative;
+  background: transparent; }
+
+.services .card-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  overflow: hidden;
+  z-index: 9;
+  border-radius: 0; }
+
+.services .card-img img {
+  max-width: 100%;
+  transition: all 0.3s ease-in-out; }
+
+.services .card-body {
+  z-index: 10;
+  background: #000;
+  border-top: 4px solid #000;
+  color: #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+  height: 75%; }
+
+.services .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.services .card-title a {
+  color: #fff;
+  transition: 0.3s; }
+
+.services .card-text {
+  color: #fff;
+  padding-bottom: 3%; }
+
+.services .read-more a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  transition: 0.3s; }
+
+.services .read-more a:hover {
+  color: #0b8793; }
+
+.services .card:hover img {
+  transform: scale(1.1); }
+
+.services .card:hover .card-body {
+  border-color: #0b8793; }
+
+.services .card:hover .card-body .card-title a {
+  color: #0b8793; }
+
+.servicios__row {
+  display: flex; }
+
+.servicios__columna {
+  display: flex;
+  justify-content: space-around; }
 
 /*-----Caja Sobre nosotrxs-----*/
 .sobrenosotrxs {
