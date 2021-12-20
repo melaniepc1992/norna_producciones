@@ -380,7 +380,8 @@ select {
     background-color: #25D366;
     border-color: #25D366;
     color: $colorPrimario;
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .btn-primary a {
@@ -391,7 +392,8 @@ select {
 .btn-primary:hover {
     background-color: $colorSecundario;
     border-color: $colorSecundario;
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .btn-primary a:hover {
@@ -407,7 +409,8 @@ select {
     background-color: $colorPrimario;
     border-color: $colorPrimario;
     color: $colorSecundario;
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     @extend .btn-primary;
 }
 
@@ -419,7 +422,8 @@ select {
     background-color: $colorSecundario;
     border-color: $colorSecundario;
     color: $colorPrimario;
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .modal__contenido {
@@ -468,7 +472,8 @@ select {
 .card {
     background-color: $colorPrimario;
     padding: 1%;
-    margin: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .card-title {
