@@ -87,10 +87,11 @@ a h1 {
     margin-left: 15%;
 }
 
-.main {
-    width: 100vw;
-    max-width: 100%
+.body {
+    width: 100vw !important;   
 }
+
+
 
 /*---- Estilos del home------*/
 
@@ -162,8 +163,6 @@ main ul li {
 .section-title {
     padding-top: 3%; 
 }
-
-// Eliminar después
 
 .services {
     padding-bottom: 40px;
@@ -372,6 +371,10 @@ main ul li {
     font-size: 2rem;
 }
 
+.formulario__botones__info {
+    transform: translateX(5%);
+}
+
 select {
     font-size: 2rem;
 }
@@ -526,8 +529,8 @@ font-size: 2rem;
     background-color: $colorPrimario;
     padding-top: 2%;
     padding-bottom: 2%;
+    // width: 100vw !important;
     width: 100vw;
-    max-width: 100%
 }
 
 .footer__copyright {
