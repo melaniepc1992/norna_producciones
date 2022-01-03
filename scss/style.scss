@@ -91,7 +91,9 @@ a h1 {
     width: 100vw !important;   
 }
 
-
+.main {
+    width: 100%;
+}
 
 /*---- Estilos del home------*/
 
@@ -400,7 +402,8 @@ select {
 }
 
 .formulario__botones__info {
-    padding-left: 5%;
+    position: fixed; 
+    left: 15%;
 }
 
 .modal__titulo {
