@@ -371,10 +371,6 @@ main ul li {
     font-size: 2rem;
 }
 
-.btn .btn-primary .formulario__botones__info {
-    transform: translateX(10%);
-}
-
 select {
     font-size: 2rem;
 }
@@ -401,6 +397,10 @@ select {
 
 .btn-primary a:hover {
     color: #199246;
+}
+
+.formulario__botones__info {
+    transform: translateX(10%);
 }
 
 .modal__titulo {
