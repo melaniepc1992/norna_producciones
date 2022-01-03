@@ -87,10 +87,6 @@ a h1 {
     margin-left: 15%;
 }
 
-.body {
-    width: 100vw !important;   
-}
-
 .main {
     width: 100%;
 }
@@ -373,6 +369,10 @@ main ul li {
     font-size: 2rem;
 }
 
+#formulario__boton {
+    padding-left: 5%;
+}
+
 select {
     font-size: 2rem;
 }
@@ -393,6 +393,7 @@ select {
 .btn-primary:hover {
     background-color: $colorSecundario;
     border-color: $colorSecundario;
+    color: #199246;
     margin-top: 5%;
     margin-bottom: 5%;
 }
