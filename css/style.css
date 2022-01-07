@@ -10,7 +10,10 @@
 
 html {
   /* etiqueta raíz */
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100vw; }
 
 /*----Header-----*/
 header {
