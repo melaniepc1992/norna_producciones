@@ -61,8 +61,8 @@ a h1 {
 .navbar-nav {
   margin-left: 15%; }
 
-.body {
-  width: 100vw !important; }
+main {
+  width: 100vw; }
 
 /*---- Estilos del home------*/
 .portada__fondo {
@@ -288,8 +288,8 @@ main ul li {
 .formulario__botones__contacto input {
   font-size: 2rem; }
 
-.formulario__botones__info {
-  transform: translateX(5%); }
+#formulario__boton {
+  padding-left: 5%; }
 
 select {
   font-size: 2rem; }
@@ -308,11 +308,16 @@ select {
 .btn-primary:hover, .btn-secondary:hover {
   background-color: #fff;
   border-color: #fff;
+  color: #199246;
   margin-top: 5%;
   margin-bottom: 5%; }
 
 .btn-primary a:hover, .btn-secondary a:hover {
   color: #199246; }
+
+.formulario__botones__info {
+  position: fixed;
+  left: 15%; }
 
 .modal__titulo {
   font-size: 3rem;
@@ -398,11 +403,11 @@ select {
   height: 100vh; }
 
 /*-----Footer Grid Bootstrap-----*/
-.footer {
+footer {
   background-color: #000;
   padding-top: 2%;
   padding-bottom: 2%;
-  width: 100%; }
+  width: 100vw; }
 
 .footer__copyright {
   font-size: 2.5rem;

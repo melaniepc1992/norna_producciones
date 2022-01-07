@@ -87,8 +87,8 @@ a h1 {
     margin-left: 15%;
 }
 
-.main {
-    width: 100%;
+main {
+    width: 100vw;
 }
 
 /*---- Estilos del home------*/
@@ -528,12 +528,12 @@ font-size: 2rem;
 
 /*-----Footer Grid Bootstrap-----*/
 
-.footer {
+footer {
 
     background-color: $colorPrimario;
     padding-top: 2%;
     padding-bottom: 2%;
-    width: 100%;
+    width: 100vw;
 }
 
 .footer__copyright {
