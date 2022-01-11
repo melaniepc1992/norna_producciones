@@ -29,17 +29,18 @@ $colorQuinario: rgba(168, 161, 161, 0.507);
 
 /*----Header-----*/
 
+body {
+    width: 100vw !important;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-image: linear-gradient(to right, $colorTerciario, $colorCuaternario);
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 3 !important;
-}
-
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 a h1 {
