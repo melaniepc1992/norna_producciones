@@ -23,7 +23,7 @@ header {
   z-index: 3 !important; }
 
 body {
-  width: 100vw; }
+  width: 100%; }
 
 a h1 {
   text-decoration: none;
